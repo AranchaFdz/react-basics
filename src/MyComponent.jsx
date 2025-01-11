@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 
 function MyComponent() {
 
-    //let [name, setName] = useState(
+    //let [name, setName] = useState()
     const [name, setName] = useState("Guest")
     const [age, setAge] = useState(0) 
     const [isEmployed, setEmployed] = useState(false)
@@ -10,7 +10,7 @@ function MyComponent() {
     const updateName = () => {
         /* name = 'Ileen'
         console.log(name) */
-        setName('Ileen')
+        setName('Patricia')
     }
 
     const incrementAge = () => {
