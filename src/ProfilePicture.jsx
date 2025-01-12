@@ -2,17 +2,27 @@
 
 function ProfilePicture() {
 
+    /* example 1 
+    const imageUrl = 'src/assets/Yo1.jpg'
+
+    return (<img src={imageUrl} />) 
+    
+    example 2
     const imageUrl = 'src/assets/Yo1.jpg'
 
     const handleClick = () => console.log("OUCH!")
 
     return (<img onClick={handleClick} src={imageUrl} />)
+    
+    
+    Example 3 hides the image*/
 
-    /* const imageUrl = 'src/assets/Yo1.jpg'
+
+    const imageUrl = 'src/assets/Yo1.jpg'
 
     const handleClick = (e) => e.target.style.display = "none"
 
-    return (<img onClick={(e) => handleClick(e)} src={imageUrl} />) */
+    return (<img onClick={(e) => handleClick(e)} src={imageUrl} />) 
 
 
 }
