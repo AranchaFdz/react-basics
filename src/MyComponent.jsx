@@ -3,10 +3,10 @@ import React, { useState } from 'react'
 function MyComponent() {
 
     const [name, setName] = useState("Guest")
-    const [quantity, setQuantity] = useState(1)
+    const [quantity, setQuantity] = useState() // set value to 1
     const [comment, setComment] = useState("")
-    const [payment, setPayment] = useState("")
-    const [shipping, setShipping] = useState("Delivery")
+    const [payment, setPayment] = useState("") // set value to "Visa" then let it empty
+    const [shipping, setShipping] = useState("") // set value to "Delivery"
 
   function handleNameChange(event) {
     setName(event.target.value)
