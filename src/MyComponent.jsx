@@ -1,16 +1,16 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react' //( object distructuring to extract individual variables or functions, we dont need the whole react library)  )
 
 function MyComponent() {
 
-    //let [name, setName] = useState()
+    //let [name, setName] = useState() returns an array of two elements a variable and a setter function
     const [name, setName] = useState("Guest")
     const [age, setAge] = useState(0) 
-    const [isEmployed, setEmployed] = useState(false)
+    const [isEmployed, setIsEmployed] = useState(false)
 
     const updateName = () => {
         /* name = 'Ileen'
         console.log(name) */
-        setName('Patricia')
+        setName('Ileen')
     }
 
     const incrementAge = () => {
@@ -18,7 +18,7 @@ function MyComponent() {
     }
 
     const toggleEmplyedStatus = () => {
-        setEmployed(!isEmployed)
+        setIsEmployed(!isEmployed) // to reverse the value we can use the ! operator
     }
 
   return (
