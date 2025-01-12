@@ -6,7 +6,7 @@ function List(props) {
       Ejemplo 1:
       const fruits = ["apple", "orange", "banana", "coconut", "pineapple"]
 
-      return (fruits) this gets eliminated sdo that you can visualize it as an ordered list
+      return (fruits) this gets eliminated so that you can visualize it as an ordered list
 
       const listItems = fruits.map(fruit => <li>{fruit}</li>)
 
