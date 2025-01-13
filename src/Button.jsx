@@ -7,7 +7,7 @@ function Button() {
     // second way
     // const handleClick = () => console.log("OUCH!")
 
-    // return(<button>Click me 😏</button>)
+    // return(<button onClick={handleClick}>Click me 😏</button>)
 
 
     // third way
@@ -15,8 +15,8 @@ function Button() {
 
     // const handleClick2 = (name) => console.log(`${name} stop clicking me!`); using perameters like name
 
-    // return(<button onclick={handleClick("Arancha")}>Click me 😏</button>) it executes right away and we dont want that so....
-    //  return(<button onclick={() => handleClick("Arancha")}>Click me 😏</button>) that prevents calling this function right away
+    // return(<button onClick={handleClick2("Arancha")}>Click me 😏</button>) it executes right away and we dont want that so....
+    //  return(<button onClick={() => handleClick2("Arancha")}>Click me 😏</button>) that prevents calling this function right away
     
     /* Adding a count variable
     
@@ -29,9 +29,6 @@ function Button() {
             console.log(`${name} stop clicking me!`);
         }
     }
-
-    return (
-        <button onClick={handleClick}>Click me 😏</button>
 
         return (
         <button onClick={() => handleClick("Arancha")}>Click me 😏</button>
